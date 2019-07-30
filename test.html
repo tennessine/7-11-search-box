@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+    	.search-container {
+    		width: 20%;
+    		margin: 20px auto;
+    		transition: all 0.5s;
+    	}
+    	.search-container:hover {
+    		width: 50%;
+    	}
+    	.search-wrapper {
+    		border: 1px solid silver;
+    		height: 40px;
+    		border-radius: 20px;
+    	}
+    	.search-form .search-input {
+    		border: none;
+    		color: #6f6f6f;
+    		width: calc(100% - 70px);
+    		margin: 9px 0 0 20px;
+    		outline: none;
+    		font-size: 16px;
+    	}
+    	.search-form .search-icon {
+    		background-image: url('sprite_2019-07-23-01-44@2x.png');
+    		background-position: -694px -911px;
+    		background-size: 1012px 963px;
+    		background-color: #fff;
+    		text-indent: -9999px;
+    		width: 24px;
+    		height: 24px;
+    		border: 1px dashed transparent;
+    		margin: 8px 15px 0 0;
+    		cursor: pointer;
+    		outline: none;
+    	}
+    </style>
+</head>
+
+<body>
+	<div class="search-container">
+		<div class="search-wrapper">
+			<form class="search-form">
+				<input type="text" placeholder="I'm looking for..." class="search-input">
+				<input type="submit" class="search-icon"> 
+			</form>
+		</div>
+	</div>
+</body>
+
+</html>
